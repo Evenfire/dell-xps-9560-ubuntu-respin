@@ -60,6 +60,8 @@ if [ -n "$COMPATIBILITY" ]; then
 		installpackages+="pciutils "
 		installpackages+="lsb-release "
 		# Nvidia
+		installpackages+="xserver-xorg-core "
+		installpackages+="xserver-xorg-video-nvidia-396 "
 		installpackages+="nvidia-driver-396 "
 		installpackages+="nvidia-prime "
 
